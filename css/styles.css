@@ -231,6 +231,10 @@ img{
     margin-bottom: 8px;
 }
 
+.portfolio{
+    padding: 120px 0;
+}
+
 .portfolio .section-title{
     margin-bottom: 72px;
 }
