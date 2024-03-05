@@ -155,9 +155,26 @@ img{
     background-color:var(--pressed-state-color);
 }
 
-.quality ul{
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.quality-list {
     display: flex;
     gap: 24px;
+}
+
+.quality-list-item{
+    width: calc((100% - 72px) / 4);
 }
 
 .section-title {
@@ -166,6 +183,7 @@ img{
     font-weight: 700;
     line-height: 1.11;
     letter-spacing: 0.02em;
+    margin-bottom:8px;
     text-transform: capitalize;
     color: var(--dark-color);
 }
