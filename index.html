@@ -5,7 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       rel="stylesheet"
-      href="https://cdnjs.com/libraries/modern-normalize"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="./css/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -19,18 +22,18 @@
     <title>Web Studio</title>
   </head>
   <body>
-      <header>
-          <div class="container">
-          <div class="navigation-and-contacts">
+    <main>
+      <header class="header">
+        <div class="container">
           <nav class="navigation">
-              <a href="./index.html" class="logo">
-                Web<span class="logo-separation">Studio</span>
-              </a>
-              <ul class="navigation-list">
-                <li><a class="link" href="./index.html">Studio</a></li>
-                <li><a class="link" href="">Portfolio</a></li>
-                <li><a class="link" href="">Contacts</a></li>
-              </ul> 
+            <a href="./index.html" class="logo">
+              Web<span class="logo-separation">Studio</span>
+            </a>
+            <ul class="navigation-list">
+              <li><a class="link" href="./index.html">Studio</a></li>
+              <li><a class="link" href="">Portfolio</a></li>
+              <li><a class="link" href="">Contacts</a></li>
+            </ul>
           </nav>
           <address class="contacts">
             <ul class="contacts-list">
@@ -40,55 +43,56 @@
                 >
               </li>
               <li>
-                <a class="contacts" href="tel:+110001111111">+11 (000) 111-11-11</a>
+                <a class="contacts" href="tel:+110001111111"
+                  >+11 (000) 111-11-11</a
+                >
               </li>
             </ul>
           </address>
-          </div>
         </div>
       </header>
-      <section class="hero ">
-        <div class="container wrap ">
-           <h1 class="hero-title">Effective Solutions for Your Business</h1>
-           <button class="hero-button" type="button">Order Service</button>
+      <section class="hero">
+        <div class="container wrap">
+          <h1 class="hero-title">Effective Solutions for Your Business</h1>
+          <button class="hero-button" type="button">Order Service</button>
         </div>
       </section>
-      <section class="quality ">
+      <section class="quality">
         <div class="container">
-        <div class="wrap">
-          <h2></h2>
-          <ul>
-            <li>
-              <h3 class="section-item-title">Strategy</h3>
-              <p class="section-paragraph">
-                Our goal is to identify the business problem to walk away with the
-                perfect and creative solution.
-              </p>
-            </li>
-            <li>
-              <h3 class="section-item-title">Punctuality</h3>
-              <p class="section-paragraph">
-                Bring the key message to the brand's audience for the best price
-                within the shortest possible time.
-              </p>
-            </li>
-            <li>
-              <h3 class="section-item-title">Diligence</h3>
-              <p class="section-paragraph">
-                Research and confirm brands that present the strongest digital
-                growth opportunities and minimize risk.
-              </p>
-            </li>
-            <li>
-              <h3 class="section-item-title">Technologies</h3>
-              <p class="section-paragraph">
-                Design practice focused on digital experiences. We bring forth a
-                deep passion for problem-solving.
-              </p>
-            </li>
-          </ul>
+          <div class="wrap">
+            <h2></h2>
+            <ul>
+              <li>
+                <h3 class="section-item-title">Strategy</h3>
+                <p class="section-paragraph">
+                  Our goal is to identify the business problem to walk away with
+                  the perfect and creative solution.
+                </p>
+              </li>
+              <li>
+                <h3 class="section-item-title">Punctuality</h3>
+                <p class="section-paragraph">
+                  Bring the key message to the brand's audience for the best
+                  price within the shortest possible time.
+                </p>
+              </li>
+              <li>
+                <h3 class="section-item-title">Diligence</h3>
+                <p class="section-paragraph">
+                  Research and confirm brands that present the strongest digital
+                  growth opportunities and minimize risk.
+                </p>
+              </li>
+              <li>
+                <h3 class="section-item-title">Technologies</h3>
+                <p class="section-paragraph">
+                  Design practice focused on digital experiences. We bring forth
+                  a deep passion for problem-solving.
+                </p>
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
       </section>
       <section class="team">
         <div class="container">
@@ -141,7 +145,7 @@
           </div>
         </div>
       </section>
-      <section class="portfolio ">
+      <section class="portfolio">
         <div class="container">
           <div class="wrap">
             <h2 class="section-title">Our Portfolio</h2>
@@ -156,7 +160,7 @@
                 />
                 <h3 class="section-item-title">Banking App</h3>
                 <p class="section-paragraph">App</p>
-              </li class="portfolio-card">
+              </li>
               <li>
                 <img
                   class="portfolio-images"
@@ -215,16 +219,16 @@
             </ul>
           </div>
         </div>
-        </section>
+      </section>
     </main>
-    <footer class="footer-info ">
+    <footer class="footer-info">
       <div class="container">
         <a href="./index.html" class="logo">
           Web<span class="logo-separation">Studio</span>
         </a>
         <p class="footer-paragraph">
-          Increase the flow of customers and sales for your business with digital
-          marketing & growth solutions.
+          Increase the flow of customers and sales for your business with
+          digital marketing & growth solutions.
         </p>
       </div>
     </footer>
