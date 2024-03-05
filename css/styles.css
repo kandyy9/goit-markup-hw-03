@@ -85,10 +85,6 @@ img{
     gap: 40px;
 }
 
-.wrap{
-    padding: 120px 0;
-}
-
 .link{
     padding: 24px 0;
     font-weight: 500;
@@ -168,6 +164,10 @@ img{
     overflow: hidden;
 }
 
+.quality{
+    padding: 120px 0;
+}
+
 .quality-list {
     display: flex;
     gap: 24px;
@@ -183,7 +183,6 @@ img{
     font-weight: 700;
     line-height: 1.11;
     letter-spacing: 0.02em;
-    margin-bottom:8px;
     text-transform: capitalize;
     color: var(--dark-color);
 }
@@ -192,6 +191,7 @@ img{
     color: var(--dark-color);
     font-weight: 500;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
 }
 .section-paragraph{
     font-size: 16px;
@@ -199,6 +199,7 @@ img{
 
 .team{
     background-color: var(--light-color);
+    padding: 120px 0;
 }
 
 .team ul{
@@ -206,8 +207,28 @@ img{
     gap: 24px;
 }
 
+.team .section-title{
+    margin-bottom: 72px;
+}
+
+.team-list{
+    display: flex;
+    gap: 24px;
+}
+
 .team-member-card{
     background-color: var(--white-color);
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.member-info{
+    padding: 32px 0;
+    text-align: center;
+}
+
+.member-info .section-item-title{
+    margin-bottom: 8px;
 }
 
 .portfolio ul{
